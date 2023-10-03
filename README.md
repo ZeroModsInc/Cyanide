@@ -1,34 +1,92 @@
-# Architectury Loom based template for 1.8.9 forge mods
+# Cyanide
+idk what to put here so here are some commands with information
 
-**For other templates, do check out the [other branches of this repository](https://github.com/romangraef/Forge1.8.9Template/branches/all)**
+## SkyBlock Menu
+View all of your SkyBlock progress, including your Skills, Collections, Recipes, and more!
 
-To get started, clone this repository.
-In `build.gradle.kts`, replace the values of `baseGroup` and `group` with your own names.
-In `settings.gradle.kts` change `rootProject.name` to your desired mod id.
+`/sbmenu`
 
-The `com.example` package needs to be renamed to match the value of `baseGroup`.
+## Your SkyBlock Profile
+View your equipment, stats, and more!
 
-If you don't want mixins (which allow for modifying vanilla code), then you can remove the references to mixins from
-the `build.gradle.kts` at the lines specified with comments and the `com.example.mixin` package.
+`unknown`
 
-This project uses [DevAuth](https://github.com/DJtheRedstoner/DevAuth) per default, so you can log in using your real
-minecraft account. If you don't need that, you can remove it from the buildscript.
+## Your Skills
+View your Skill progression and rewards.
 
-To run the mod you will need two JDKs, one Java 17 jdk and one Java 1.8 jdk. You can download those
-from [here](https://adoptium.net/temurin/releases) (or use your own downloads).
+`/skills`
 
-When you import your project into IntelliJ, you need to set the gradle jvm to the Java 17 JDK in the gradle tab, and the
-Project SDK to the Java 1.8 JDK. Then click on the sync button in IntelliJ, and it should create a run task
-called `Minecraft Client`. If it doesn't then try relaunching your IntelliJ. **Warning for Mac users**: You might have to remove the `-XStartOnFirstThread` vm argument from your run configuration. In the future, that should be handled by the plugin, but for now you'll probably have to do that manually.
+## Collections
+View all of the items available in SkyBlock. Collect more of an item to unlock rewards on your way to becoming a master of SkyBlock!
 
-To export your project, run the `gradle build` task, and give other people the
-file `build/libs/<modid>-<version>.jar`. Ignore the jars in the `build/badjars` folder. Those are intermediary jars that
-are used by the build system but *do not work* in a normal forge installation.
+`/collections`
 
-### For those who have not an attention span
+## Recipe Book
+Through your adventure, you will unlock recipes for all kinds of special items! You can view how to craft these items here.
 
-[![Youtube Tutorial](https://i.ytimg.com/vi/nWzHlomdCgc/maxresdefault.jpg)](https://www.youtube.com/watch?v=nWzHlomdCgc)
+`/recipebook`
 
-## Licensing
+## SkyBlock Leveling
+Determine how far you've progressed in SkyBlock and earn rewards from completing unique tasks.
 
-This template is licensed under the Unlicense (license copy present in this repository), or alternatively under [Creative Commons 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/), and all contributions and PR to this template are expected to follow this. This means your mod, based on this template can be licensed whatever way you want, and does not need to reference back to this template in any way.
+`/level`
+
+## Quest Log
+View your active quests, progress, and rewards.
+
+`/quests`
+
+## Calendar and Events
+View the SkyBlock Calendar, upcoming events, and event rewards!
+
+`/calendar`
+`/events`
+
+## Your Bags
+Different bags allow you to store many different items inside!
+
+`unknown`
+
+## Pets
+View and manage all of your Pets.
+
+`/pets`
+
+## Crafting Table
+Opens the crafting grid.
+
+`/craft`
+
+## Wardrobe
+Store armor sets and quickly swap between them!
+
+`/wardrobe`
+
+## Personal Bank
+Contact your Banker from anywhere
+
+§cRequires §aEmerald Collection VI
+
+`unknown`
+
+## Fast Travel
+Teleport to islands you've already visited.
+
+`/travel`
+
+## Profile Management
+You can have multiple SkyBlock profiles at the same time.
+
+Each profile has its own island, inventory, quest log...
+
+`/profile`
+
+## Settings
+View and edit your SkyBlock settings.
+
+`unknown`
+
+## Booster Cookie
+Obtain the §dCookie Buff §rfrom Booster Cookies in the hub's community shop.
+
+`unknown`
