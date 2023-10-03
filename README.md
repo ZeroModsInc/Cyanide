@@ -79,7 +79,7 @@ You can have multiple SkyBlock profiles at the same time.
 
 Each profile has its own island, inventory, quest log...
 
-`/profile`
+`/profiles`
 
 ## Settings
 View and edit your SkyBlock settings.
