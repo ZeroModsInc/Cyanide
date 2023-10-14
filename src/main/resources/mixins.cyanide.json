@@ -1,11 +1,13 @@
 {
-  "package": "${mixinGroup}",
-  "refmap": "mixins.${modid}.refmap.json",
+  "package": "com.github.zeromodsinc.cyanide.mixin",
+  "refmap": "mixins.${modId}.refmap.json",
   "minVersion": "0.7",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-	"MixinGuiMainMenu"
+    "client.MixinMinecraft",
+    "client.gui.MixinGuiMainMenu",
+    "client.gui.MixinGuiScreen"
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "uuid": "95e09d84-467e-11ec-81d3-0242ac130003",
+    "name": "resourcePack.previewapp.name",
+    "version": [0, 0, 1],
+    "description": "resourcePack.previewapp.description",
+    "min_engine_version": [1, 14, 0]
+  },
+  "modules": [
+    {
+      "description": "resourcePack.previewapp.description",
+      "version": [0, 0, 1],
+      "uuid": "a04ba23c-467e-11ec-81d3-0242ac130003",
+      "type": "resources"
+    }
+  ]
+}

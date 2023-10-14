@@ -1,10 +1,10 @@
 [
   {
-    "modid": "${modid}",
-    "name": "Xample Mod",
-    "description": "A mod that is used as an example.",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
+    "modid": "${modId}",
+    "name": "Cyanide",
+    "description": "SkyBlock hard. Make SkyBlock easy for monke.",
+    "version": "${modVersion}",
+    "mcversion": "${gameVersion}",
     "url": "https://github.com/romangraef/Forge1.8.9Template/",
     "updateUrl": "",
     "authorList": [
